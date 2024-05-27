@@ -2,4 +2,17 @@
 <resources>
 
     <style name="Theme.LoopLine" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <item name="background" type="color">@color/dark_background</item>
+    <item name="onBackground" type="color">@color/white_text</item>
+    <item name="primary" type="color">@color/primary_color</item>
+    <item name="onPrimary" type="color">@color/white_text</item>
+    <item name="secondary" type="color">@color/secondary_color</item>
+    <item name="tertiary" type="color">@color/tertiary_color</item>
+    <item name="surface" type="color">@color/container_color</item>
+    <item name="onSurface" type="color">@color/grey_text</item>
+    <item name="surfaceTint" type="color">@color/text_field_color</item>
+    <item name="outline" type="color">@color/black_text</item>
+    <item name="scrim" type="color">@color/comment_container</item>
+
 </resources>
