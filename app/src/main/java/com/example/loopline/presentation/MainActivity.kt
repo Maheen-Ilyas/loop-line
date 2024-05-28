@@ -9,6 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.loopline.presentation.theme.LoopLineTheme
+import com.example.loopline.presentation.util.Navigation
 
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +20,9 @@ class MainActivity : ComponentActivity() {
         Surface(
           color = MaterialTheme.colorScheme.background,
           modifier = Modifier.fillMaxSize()
-        ) {}
+        ) {
+          Navigation()
+        }
       }
     }
   }
